@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">口袋守护</string>
+    <string name="app_title">口袋守护</string>
+    <string name="app_sub">Pixel 防误触 · 距离感应息屏 · 锁屏防下拉</string>
+
+    <string name="status_title">实时状态</string>
+    <string name="status_service">防护服务</string>
+    <string name="status_sensor">距离感应器</string>
+    <string name="status_pocket">口袋状态</string>
+    <string name="status_last">最近动作</string>
+    <string name="status_locker">熄屏方式</string>
+
+    <string name="section_core">核心防护</string>
+    <string name="row_pocket_lock">启用口袋防护</string>
+    <string name="row_pocket_lock_desc">总开关：开启距离感应监测与防误点亮</string>
+    <string name="row_relock">已熄屏时防止误点亮</string>
+    <string name="row_relock_desc">在口袋里屏幕被双击/误触点亮时，立刻再熄灭，不给触控机会</string>
+    <string name="row_skip_active">正常使用中不自动熄屏</string>
+    <string name="row_skip_active_desc">屏幕亮着在操作时不因手指挡住感应器而锁死；关掉它可恢复「进兜即熄屏」</string>
+    <string name="row_shade">锁屏拦截状态栏下拉</string>
+    <string name="row_shade_desc">锁屏界面下拉通知栏时自动收起，避免误触快捷开关（需无障碍权限）</string>
+    <string name="row_shade_pocket">仅在口袋内拦截下拉</string>
+    <string name="row_shade_pocket_desc">关闭后，锁屏放在桌上也会拦截下拉</string>
+
+    <string name="section_perm">权限</string>
+    <string name="perm_admin">设备管理员</string>
+    <string name="perm_admin_desc">仅备用；此方式会强制下次用密码解锁</string>
+    <string name="perm_overlay">显示在其他应用上层</string>
+    <string name="perm_overlay_desc">在口袋中拦截屏幕触控</string>
+    <string name="perm_access">无障碍服务</string>
+    <string name="perm_access_desc">主要熄屏方式：等同按电源键，保留指纹解锁</string>
+    <string name="perm_notif">通知</string>
+    <string name="perm_notif_desc">显示常驻运行状态</string>
+    <string name="perm_battery">电池优化白名单</string>
+    <string name="perm_battery_desc">避免后台被系统杀掉（建议开启）</string>
+
+    <string name="perm_granted">已授权</string>
+    <string name="perm_missing">去开启</string>
+
+    <string name="footer">关于解锁方式：系统的「设备管理员锁屏」会强制下次必须输入 PIN/图案/密码，指纹会被禁用。本应用默认改用无障碍服务的熄屏动作（等同按电源键），所以熄屏后仍可直接指纹解锁。\n\n如果无障碍服务被系统关闭，会自动退回设备管理员方式，此时会要求输入密码——建议保持无障碍开关常开。\n\n建议：系统设置 → 安全 → 锁屏 → 关闭"控制中心/快捷设置"可再少一层误触风险。</string>
+
+    <string name="accessibility_label">口袋守护 · 锁屏栏拦截</string>
+    <string name="accessibility_desc">用于在锁屏状态下自动收起被误拉下的通知栏。</string>
+
+    <string name="notif_title">口袋守护运行中</string>
+    <string name="notif_text">距离感应监测已开启</string>
+</resources>
